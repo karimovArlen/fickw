@@ -9,9 +9,9 @@
 
     <ImageView
         android:id="@+id/car_img"
-        android:layout_width="235dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="235sp"
+        android:layout_height="200sp"
+        android:layout_marginStart="20sp"
         android:background="@drawable/img"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,8 +21,7 @@
         android:id="@+id/hello_there"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-
+        android:layout_marginStart="20sp"
         android:fontFamily="@font/fuck"
         android:text="HELLO THERE,
        \nWELCOME BACK"
@@ -32,11 +31,12 @@
         app:layout_constraintTop_toBottomOf="@id/car_img" />
 
     <TextView
+
         android:id="@+id/sign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:paddingStart="20dp"
+        android:layout_marginTop="20sp"
+        android:paddingStart="20sp"
         android:text="Sign in to continue"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -45,21 +45,19 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/sign"
-        >
+        android:layout_marginHorizontal="19sp"
+        android:layout_marginTop="30sp"
+        app:endIconMode="clear_text"
+        app:layout_constraintTop_toBottomOf="@id/sign">
+
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/f1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/granik"
-            android:layout_marginHorizontal="20sp"
-            android:hint="Username"
-            android:paddingStart="20sp"
-            android:paddingVertical="12sp"
-            android:layout_marginTop="20sp"
-            android:layout_marginVertical="20sp">
+            android:hint="Username">
 
         </com.google.android.material.textfield.TextInputEditText>
 
@@ -68,6 +66,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/dop"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="19sp"
@@ -78,12 +77,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/f2"
             android:layout_width="match_parent"
-            android:inputType="textPassword"
             android:layout_height="wrap_content"
-            android:paddingStart="20sp"
-            android:background="@drawable/granik"
             android:hint="Password"
-             />
+            android:inputType="textPassword"
+            android:paddingStart="20sp" />
 
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -93,8 +90,8 @@
         android:id="@+id/forget_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="18dp"
-        android:paddingEnd="50dp"
+        android:paddingTop="18sp"
+        android:paddingEnd="50sp"
         android:text="FORGET PASSWORD?"
         android:textColor="@color/black"
         android:textSize="15sp"
@@ -106,22 +103,26 @@
         android:id="@+id/GO"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/teal_700"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="80sp"
+        android:layout_marginTop="20sp"
+        android:enabled="false"
         android:text="GO"
-        app:layout_constraintStart_toStartOf="parent"
         android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/helo"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/forget_password" />
 
     <TextView
+        android:id="@+id/helo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="133dp"
-        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="133sp"
+        android:layout_marginVertical="20sp"
         android:text="NEW USER? SIGN UP"
         android:textColor="@color/black"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/GO" />
 
