@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/drawable/box_for_item.xml" value="0.11" />
+        <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/drawable/circle.xml" value="0.11" />
         <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/drawable/granik.xml" value="0.11" />
+        <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/drawable/ic_email.xml" value="0.11" />
         <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/drawable/u7tu.xml" value="0.11" />
         <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/font/my.xml" value="0.2037037037037037" />
         <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/arlen/AndroidStudioProjects/Lesson13mounth/app/src/main/res/layout/activity_main2.xml" value="0.264" />
       </map>
     </option>
   </component>
